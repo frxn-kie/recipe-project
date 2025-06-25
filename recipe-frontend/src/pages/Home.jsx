@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import SearchBar from '../components/SearchBar';
-import RecipeCard from '../components/RecipeCard';
+import RecipeCard from '../components/RecipeCard/RecipeCard';
 
 function Home() {
   const [results, setResults] = useState([]);
